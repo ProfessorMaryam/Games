@@ -90,7 +90,7 @@ PrefabInstance:
     - target: {fileID: -1504981713932161579, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4bf8b497fcf91aa438852278275c6ee8, type: 2}
+      objectReference: {fileID: 2100000, guid: ebcc116a5b674024ab5ea44772f1fc3c, type: 2}
     - target: {fileID: -927199367670048503, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_Name
       value: RetroElectronic_Cassette_player
