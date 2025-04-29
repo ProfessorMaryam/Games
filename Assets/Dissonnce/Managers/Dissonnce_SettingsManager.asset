@@ -174,8 +174,8 @@ MonoBehaviour:
   hotspotDrawing: 0
   hideUnhandledHotspots: 0
   navMeshRaycastLength: 100
-  hotspotRaycastLength: 100
-  moveableRaycastLength: 30
+  hotspotRaycastLength: 2
+  moveableRaycastLength: 2
   hotspotLayer: Default
   distantHotspotLayer: DistantHotspot
   navMeshLayer: NavMesh
