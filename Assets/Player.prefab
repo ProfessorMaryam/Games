@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 439595049321487008}
   - component: {fileID: 439595049321487009}
   - component: {fileID: 439595049321487070}
-  - component: {fileID: 439595049321487071}
+  - component: {fileID: 4346118874279083636}
+  - component: {fileID: 8412724188546937301}
   m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439595049321487068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.000984, y: 3.9217, z: -18.059}
-  m_LocalScale: {x: 1, y: 0.97702324, z: 1}
+  m_LocalPosition: {x: -4.35, y: 4.141, z: -16.718}
+  m_LocalScale: {x: 0.55760574, y: 0.94597024, z: 0.39227512}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 439595049654507344}
@@ -240,7 +241,25 @@ MonoBehaviour:
   rightMovementLocked: 0
   freeAimLocked: 0
   jumpingLocked: 0
---- !u!136 &439595049321487071
+--- !u!143 &4346118874279083636
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439595049321487068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &8412724188546937301
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,10 +269,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.37386638
+  m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0.10323495, y: 1, z: -0.25279886}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &439595049654507345
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +287,7 @@ GameObject:
   - component: {fileID: 953434614028064508}
   m_Layer: 0
   m_Name: First person camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,8 +300,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439595049654507345}
   m_LocalRotation: {x: -0, y: -0, z: -1.5779734e-10, w: 1}
-  m_LocalPosition: {x: -0.021, y: 1.324, z: -0.187}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.97, z: 0}
+  m_LocalScale: {x: 1.053, y: 1.053, z: 1.053}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 439595049321487011}
@@ -351,10 +370,10 @@ MonoBehaviour:
   sensitivity: {x: 15, y: 15}
   minY: -80
   maxY: 80
-  allowMouseWheelZooming: 0
+  allowMouseWheelZooming: 1
   minimumZoom: 13
   maximumZoom: 65
-  headBob: 0
+  headBob: 1
   headBobMethod: 0
   builtInSpeedFactor: 0.2
   bobbingAmount: 0.2
