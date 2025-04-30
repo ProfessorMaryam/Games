@@ -7279,6 +7279,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1521513056451258242, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
+      propertyPath: footstepPlayMethod
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521513056451258242, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
+      propertyPath: footstepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: edc522b480b6c0b42a7a33fcbecd0dc5, type: 3}
     - target: {fileID: 7819875545139176414, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.017
