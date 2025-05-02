@@ -117,7 +117,7 @@ MonoBehaviour:
   clickHoldSeparationStraight: 0.3
   useFPCamDuringConversations: 1
   onlyInteractWhenCursorUnlocked: 0
-  freeAimSmoothSpeed: 50
+  freeAimSmoothSpeed: 5
   firstPersonMovementSmoothing: 1
   assumeInputsDefined: 0
   activeInputs: []
