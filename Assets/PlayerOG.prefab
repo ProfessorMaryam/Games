@@ -100,7 +100,7 @@ MonoBehaviour:
   allowMouseWheelZooming: 0
   minimumZoom: 13
   maximumZoom: 65
-  headBob: 1
+  headBob: 0
   headBobMethod: 0
   builtInSpeedFactor: 1
   bobbingAmount: 0.2

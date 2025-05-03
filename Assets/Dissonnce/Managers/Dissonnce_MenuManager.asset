@@ -1214,7 +1214,7 @@ MonoBehaviour:
   - {fileID: 3944379246824840263}
   - {fileID: -2470502924612880075}
   transitionProgress: 0
-  appearType: 1
+  appearType: 7
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
