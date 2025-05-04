@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 2
   title: Padlock3
-  slotSize: {x: 9.87536, y: 6.0194173}
+  slotSize: {x: 9.85646, y: 6.0311284}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1470,8 +1470,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 21.903
-    y: 127.709
+    x: 21.945
+    y: 127.835
     width: 103
     height: 31
   relativePosition: {x: 0, y: 0}
@@ -1655,7 +1655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   title: Padlock4
-  slotSize: {x: 9.779482, y: 6.0194173}
+  slotSize: {x: 9.760765, y: 6.0311284}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1680,9 +1680,9 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 21.903
-    y: 180.612
-    width: 102
+    x: 21.945
+    y: 180.77998
+    width: 101.99999
     height: 31
   relativePosition: {x: 0, y: 0}
   numSlots: 1
@@ -2740,9 +2740,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 15
   title: PadLock
-  manualSize: {x: 14.171237, y: 55.615147}
+  manualSize: {x: 14.152153, y: 55.77237}
   positionType: 0
-  manualPosition: {x: 521.5, y: 257.5}
+  manualPosition: {x: 522.5, y: 257}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -2819,13 +2819,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 125.90301, y: 264.515}
+  biggestElementSize: {x: 125.945, y: 264.72498}
   rect:
     serializedVersion: 2
-    x: 447.597
-    y: 114.291
-    width: 147.806
-    height: 286.418
+    x: 448.555
+    y: 113.66501
+    width: 147.89
+    height: 286.66998
   showInFilter: 1
 --- !u!114 &-2893966398106349563
 MonoBehaviour:
@@ -4687,7 +4687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   title: Padlock2
-  slotSize: {x: 9.587728, y: 6.0194173}
+  slotSize: {x: 9.569378, y: 6.0311284}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4712,8 +4712,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 21.903
-    y: 74.806
+    x: 21.945
+    y: 74.89
     width: 100
     height: 31
   relativePosition: {x: 0, y: 0}
@@ -4757,7 +4757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Padlock1
-  slotSize: {x: 9.971237, y: 6.0194173}
+  slotSize: {x: 9.952153, y: 6.0311284}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4782,9 +4782,9 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 21.903
-    y: 21.903
-    width: 104.00001
+    x: 21.945
+    y: 21.945
+    width: 104
     height: 31
   relativePosition: {x: 0, y: 0}
   numSlots: 1
@@ -6497,7 +6497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 4
   title: CloseButton
-  slotSize: {x: 8.053691, y: 6.0194173}
+  slotSize: {x: 8.038278, y: 6.0311284}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6522,8 +6522,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 21.903
-    y: 233.515
+    x: 21.945
+    y: 233.72498
     width: 84
     height: 31
   relativePosition: {x: 0, y: 0}
