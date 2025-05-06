@@ -1197,9 +1197,9 @@ MonoBehaviour:
   manualPosition: {x: 210, y: 22.685453}
   positionSmoothing: 0
   alignment: 0
-  toggleKey: 
+  toggleKey: e
   ignoreMouseClicks: 0
-  pauseWhenEnabled: 0
+  pauseWhenEnabled: 1
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   - {fileID: 3944379246824840263}
   - {fileID: -2470502924612880075}
   transitionProgress: 0
-  appearType: 7
+  appearType: 1
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -3572,7 +3572,7 @@ MonoBehaviour:
   rectTransformID: 87948
   uiTransitionType: 1
   uiPositionType: 1
-  _isLocked: 0
+  _isLocked: 1
   id: 11
   title: Hotspot
   manualSize: {x: 33.999996, y: 11.999999}

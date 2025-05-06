@@ -76,7 +76,7 @@ MonoBehaviour:
   allowDefaultInventoryInteractions: 0
   inventoryDisableUnhandled: 1
   inventoryDisableDefined: 1
-  inventoryInteractionsHaltPlayer: 0
+  inventoryInteractionsHaltPlayer: 1
   activeWhenHover: 0
   inventoryActiveEffect: 1
   inventoryPulseSpeed: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
   assumeInputsDefined: 0
   activeInputs: []
   freeAimTouchSpeed: 0.01
-  dragWalkThreshold: 5
+  dragWalkThreshold: 10
   dragRunThreshold: 20
   drawDragLine: 0
   dragLineWidth: 3
