@@ -9859,7 +9859,7 @@ MonoBehaviour:
     x: 449
     y: 346
     width: 300
-    height: 227
+    height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9041335131810650622}
@@ -9872,7 +9872,7 @@ MonoBehaviour:
   messageText: Sounds like one of Rayn's Tapes is in there
   lineID: -1
   multiLineIDs: 
-  isBackground: 0
+  isBackground: 1
   noAnimation: 0
   headClip: {fileID: 0}
   mouthClip: {fileID: 0}
@@ -9882,7 +9882,7 @@ MonoBehaviour:
   play2DMouthAnim: 0
   mouthClip2D: 
   mouthLayer: 0
-  waitTimeOffset: 2
+  waitTimeOffset: 1
 --- !u!64 &918809231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10301,7 +10301,7 @@ MonoBehaviour:
     x: 74
     y: 501
     width: 300
-    height: 212
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9041335131810650622}
@@ -10314,7 +10314,7 @@ MonoBehaviour:
   messageText: That's enough music for now
   lineID: -1
   multiLineIDs: 
-  isBackground: 0
+  isBackground: 1
   noAnimation: 0
   headClip: {fileID: 0}
   mouthClip: {fileID: 0}

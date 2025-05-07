@@ -1199,7 +1199,7 @@ MonoBehaviour:
   alignment: 0
   toggleKey: e
   ignoreMouseClicks: 0
-  pauseWhenEnabled: 1
+  pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
@@ -2747,7 +2747,7 @@ MonoBehaviour:
   alignment: 0
   toggleKey: 
   ignoreMouseClicks: 0
-  pauseWhenEnabled: 1
+  pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
