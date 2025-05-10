@@ -1197,9 +1197,9 @@ MonoBehaviour:
   manualPosition: {x: 210, y: 22.685453}
   positionSmoothing: 0
   alignment: 0
-  toggleKey: e
+  toggleKey: Inventory
   ignoreMouseClicks: 0
-  pauseWhenEnabled: 0
+  pauseWhenEnabled: 1
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   - {fileID: 3944379246824840263}
   - {fileID: -2470502924612880075}
   transitionProgress: 0
-  appearType: 1
+  appearType: 3
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 2
   title: Padlock3
-  slotSize: {x: 9.794776, y: 6.237817}
+  slotSize: {x: 9.794776, y: 4.804805}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1655,7 +1655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   title: Padlock4
-  slotSize: {x: 9.608209, y: 6.237817}
+  slotSize: {x: 9.608209, y: 4.804805}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2740,9 +2740,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 15
   title: PadLock
-  manualSize: {x: 13.994777, y: 57.518906}
+  manualSize: {x: 13.994777, y: 44.305103}
   positionType: 0
-  manualPosition: {x: 536, y: 256.5}
+  manualPosition: {x: 536, y: 333}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -2823,7 +2823,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 460.988
-    y: 108.964005
+    y: 185.464
     width: 150.024
     height: 295.072
   showInFilter: 1
@@ -4687,7 +4687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   title: Padlock2
-  slotSize: {x: 9.514925, y: 6.237817}
+  slotSize: {x: 9.514925, y: 4.804805}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4757,7 +4757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Padlock1
-  slotSize: {x: 9.794776, y: 6.237817}
+  slotSize: {x: 9.794776, y: 4.804805}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6497,7 +6497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 4
   title: CloseButton
-  slotSize: {x: 8.022388, y: 6.237817}
+  slotSize: {x: 8.022388, y: 4.804805}
   sizeType: 0
   positionType: 0
   slotSpacing: 0

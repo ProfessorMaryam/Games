@@ -70,13 +70,6 @@ public class ReturnPickUp : MonoBehaviour
             if (KickStarter.player)
             {
                 KickStarter.player.upMovementLocked = KickStarter.player.downMovementLocked = KickStarter.player.leftMovementLocked = KickStarter.player.rightMovementLocked = true;
-                
-                //FirstPersonCamera fpCam = KickStarter.mainCamera.attachedCamera as FirstPersonCamera;
-
-                //if (fpCam != null)
-                //{
-                //    fpCam.enabled = false;
-                //}
             }
         }
     }
@@ -98,12 +91,6 @@ public class ReturnPickUp : MonoBehaviour
             if (KickStarter.player)
             {
                 KickStarter.player.upMovementLocked = KickStarter.player.downMovementLocked = KickStarter.player.leftMovementLocked = KickStarter.player.rightMovementLocked = false;
-                //FirstPersonCamera fpCam = KickStarter.mainCamera.attachedCamera as FirstPersonCamera;
-
-                //if (fpCam != null)
-                //{
-                //    fpCam.enabled = false;
-                //}
             }
         }
     }
