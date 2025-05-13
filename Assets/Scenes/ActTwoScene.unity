@@ -2550,6 +2550,57 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -629719859055844128, guid: 2e1c839ba950e6842a03aba0472c9020, type: 3}
+--- !u!114 &209859573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 269.4
+    width: 300
+    height: 192
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6407745770081457460}
+  constantID: 0
+  parameterID: -1
+  soundObject: {fileID: 1521513056441372225}
+  audioClip: {fileID: 8300000, guid: b98c12f148cef3a4589be3046154b0f9, type: 3}
+  audioClipParameterID: -1
+  fadeTime: 0
+  loop: 0
+  ignoreIfPlaying: 0
+  soundAction: 0
+  affectChildren: 0
+  autoEndOtherMusicWhenPlayed: 1
 --- !u!1 &211589511
 GameObject:
   m_ObjectHideFlags: 0
@@ -15589,6 +15640,7 @@ Transform:
   - {fileID: 7175926933589850924}
   - {fileID: 7062579660701164585}
   - {fileID: 3520825287233387349}
+  - {fileID: 8425987823047205955}
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16440,7 +16492,7 @@ MonoBehaviour:
   play2DMouthAnim: 0
   mouthClip2D: 
   mouthLayer: 0
-  waitTimeOffset: 4
+  waitTimeOffset: 0
 --- !u!64 &1651103036
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20464,6 +20516,57 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 847955998745786050, guid: 2e1c839ba950e6842a03aba0472c9020, type: 3}
+--- !u!114 &2040078223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 192
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8425987823052852611}
+  constantID: 0
+  parameterID: -1
+  soundObject: {fileID: 1521513056441372225}
+  audioClip: {fileID: 8300000, guid: 4cba1208664ca42adb883700b794e8b5, type: 3}
+  audioClipParameterID: -1
+  fadeTime: 0
+  loop: 0
+  ignoreIfPlaying: 0
+  soundAction: 0
+  affectChildren: 0
+  autoEndOtherMusicWhenPlayed: 1
 --- !u!64 &2041089069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64583,19 +64686,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000089406946
+      value: -0.0027620194
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.70710677
+      value: -0.70710146
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.70710677
+      value: -0.7071014
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000029802315
+      value: -0.0027621684
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -64603,11 +64706,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 179.552
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: f21a8d626edb31b4c94cbe0908fcfcfd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -75850,6 +75953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 1647559215}
+  - {fileID: 209859573}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -93891,6 +93995,65 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &8425987823046850659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8425987823047205955}
+  - component: {fileID: 8425987823052852611}
+  m_Layer: 0
+  m_Name: 'Cassette Player: Use'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8425987823047205955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425987823046850659}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1546707652}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8425987823052852611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425987823046850659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 2040078223}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+  backupData: []
 --- !u!33 &8428247497176896253
 MeshFilter:
   m_ObjectHideFlags: 0
