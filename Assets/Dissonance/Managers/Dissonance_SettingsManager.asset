@@ -197,7 +197,7 @@ MonoBehaviour:
   ambienceStorages:
   - ID: 0
     audioClip: {fileID: 8300000, guid: deb0dcd8de2322e4e82e79b866b42055, type: 3}
-    relativeVolume: 0.401
+    relativeVolume: 0.263
     overrideMixerGroup: {fileID: 0}
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
