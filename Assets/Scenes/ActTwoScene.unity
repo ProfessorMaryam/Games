@@ -2651,17 +2651,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4920944842177834252, guid: 2e1c839ba950e6842a03aba0472c9020, type: 3}
---- !u!114 &239955865 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8818412018053639144, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
-  m_PrefabInstance: {fileID: 835303923}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbbbb3c8d2a7340dab40d45d6033e69e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &240292826
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7677,66 +7666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e75a04a147624aa9b6f89d5d4759155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &788526032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 425.2
-    y: 608.31006
-    width: 300
-    height: 212.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: Seems like the lamp broke.
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!64 &790315677
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9478,6 +9407,66 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6823731359625646764, guid: 2e1c839ba950e6842a03aba0472c9020, type: 3}
+--- !u!114 &962341962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 425.2
+    y: 608.31006
+    width: 300
+    height: 212.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3520825287227593365}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Seems like the lamp broke.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &963031036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22838,7 +22827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c7be13b09643448aeb0ec2fc61557c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markerWhenHeld: {fileID: 239955865}
+  markerWhenHeld: {fileID: 0}
   moveSpeed: 10
 --- !u!4 &95163099061823720
 Transform:
@@ -52661,7 +52650,7 @@ MonoBehaviour:
   actions:
   - {fileID: 25087040}
   - {fileID: 356545908}
-  - {fileID: 788526032}
+  - {fileID: 962341962}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -95635,14 +95624,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8640494418892020599}
-  m_LocalRotation: {x: -0.004878244, y: 0.75112975, z: 0.0004201988, w: -0.66013646}
+  m_LocalRotation: {x: -0.0017009602, y: 0.7511421, z: 0.0066379234, w: -0.6601051}
   m_LocalPosition: {x: -3.501, y: 4.862, z: -16.906}
   m_LocalScale: {x: 0.21419208, y: 0.6526847, z: 0.15695523}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1082755467}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0.333, y: -97.38, z: -0.452}
+  m_LocalEulerAnglesHint: {x: -0.443, y: -97.379, z: -0.649}
 --- !u!1 &8640494418892020599
 GameObject:
   m_ObjectHideFlags: 0
