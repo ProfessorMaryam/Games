@@ -272,7 +272,7 @@ MonoBehaviour:
   linkedProp: {fileID: 0}
   setVectorMethod: 0
   newVectorParameterID: -1
-  newVector: {x: 3.3552, y: 0.891, z: -25.261}
+  newVector: {x: 3.318, y: 0.9036, z: -25.2669}
   vectorVarParameterID: -1
   vectorVarID: 0
   variableLocation: 0
