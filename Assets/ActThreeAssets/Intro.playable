@@ -20,7 +20,7 @@ MonoBehaviour:
     messageText: Mom?! Is that you?
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -473066
+  trackInstanceID: 44180
 --- !u!114 &-5170182963945483804
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -3997006524311486577}
-    m_Duration: 6.033333333333333
+    m_Duration: 7.266666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5170182963945483804}
     m_EaseInDuration: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
     messageText: Mark! What's taking so long, Lunch is ready!
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -464238
+  trackInstanceID: 44178
 --- !u!114 &-3607041431928442693
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1616,7 +1616,7 @@ MonoBehaviour:
     messageText: Get your brother and come down!
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -464238
+  trackInstanceID: 44178
 --- !u!114 &8821482555263629829
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1637,7 +1637,7 @@ MonoBehaviour:
     messageText: Where's Rayn? Let me look for him
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -473066
+  trackInstanceID: 44180
 --- !u!114 &8931316542976770243
 MonoBehaviour:
   m_ObjectHideFlags: 1

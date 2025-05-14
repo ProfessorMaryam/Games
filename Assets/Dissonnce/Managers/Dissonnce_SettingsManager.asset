@@ -34,7 +34,7 @@ MonoBehaviour:
     autosaveLabelID: -1
   referenceScenesInSave: 0
   sceneAttributes: []
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: f8242c5041388fb4f946864c488465e6, type: 2}
   blackOutWhenSkipping: 1
   playerSwitching: 1
   player: {fileID: 439595049321487070, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
@@ -193,7 +193,11 @@ MonoBehaviour:
   spawnPersistentEnginePrefab: 1
   playMusicWhilePaused: 0
   playAmbienceWhilePaused: 0
-  musicStorages: []
+  musicStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: 9bf194686f284c24380effa742dec7b5, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
