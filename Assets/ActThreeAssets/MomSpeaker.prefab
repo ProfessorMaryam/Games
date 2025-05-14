@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charState: 0
-  animationEngine: 2
+  animationEngine: 5
   customAnimationClass: 
   motionControl: 0
   talkingAnimation: 0
