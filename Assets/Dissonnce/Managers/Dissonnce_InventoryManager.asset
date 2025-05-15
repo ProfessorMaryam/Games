@@ -28,7 +28,7 @@ MonoBehaviour:
     tex: {fileID: 2800000, guid: beeffc005c7005f4c9f69b994045f56e, type: 3}
     activeTex: {fileID: 2800000, guid: beeffc005c7005f4c9f69b994045f56e, type: 3}
     selectedTex: {fileID: 0}
-    linkedPrefab: {fileID: 4298128761780618749, guid: f97e261aa6f1be0408f4da562538bccb, type: 3}
+    linkedPrefab: {fileID: 4278959076456715658, guid: a85d7d9ee99ad0846b4b9eb275f387d3, type: 3}
     cursorIcon:
       texture: {fileID: 0}
       isAnimated: 0

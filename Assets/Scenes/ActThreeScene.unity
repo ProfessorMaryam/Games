@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -4750,7 +4750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 93d278f64a1422740b3b08756962f14a, type: 2}
+  - {fileID: 2100000, guid: cf04e88621afecb48b34b4151b28ed20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14321,11 +14321,19 @@ PrefabInstance:
     - target: {fileID: 2612188139296840444, guid: 94eb4796ad9d1417d94590ddc7157bf3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b169b56f7657a64eb53c315e184fde1, type: 2}
+      objectReference: {fileID: 2100000, guid: fa95b4ce0f0ffef4bb0c3ba1a41c6470, type: 2}
     - target: {fileID: 4445076816301027465, guid: 94eb4796ad9d1417d94590ddc7157bf3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b169b56f7657a64eb53c315e184fde1, type: 2}
+      objectReference: {fileID: 2100000, guid: fa95b4ce0f0ffef4bb0c3ba1a41c6470, type: 2}
+    - target: {fileID: 7104162428291582585, guid: 94eb4796ad9d1417d94590ddc7157bf3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa95b4ce0f0ffef4bb0c3ba1a41c6470, type: 2}
+    - target: {fileID: 9203649311937553788, guid: 94eb4796ad9d1417d94590ddc7157bf3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa95b4ce0f0ffef4bb0c3ba1a41c6470, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94eb4796ad9d1417d94590ddc7157bf3, type: 3}
 --- !u!1 &1121321662 stripped
@@ -15843,6 +15851,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 022f2012a416ff546804e8ce1c296f6a, type: 2}
+    - target: {fileID: 13385339063811772, guid: 66df3c5eb0b75424582840a6f8405e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 386882fb980bf0445a04f1b556d6ba16, type: 2}
     - target: {fileID: 13385339065999458, guid: 66df3c5eb0b75424582840a6f8405e9b, type: 3}
       propertyPath: m_Name
       value: Radio
@@ -24311,7 +24323,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b9c241ab095fbb141b1a99c47be84d97, type: 2}
+  - {fileID: 2100000, guid: af1c6170ff395064ba8c922d57a73a75, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64181,7 +64193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7067698966321880418}
   m_LocalRotation: {x: -7.1054274e-15, y: 2.1175824e-22, z: -1.7763568e-15, w: 1}
-  m_LocalPosition: {x: -0.00401, y: -0.00004, z: 0.00154}
+  m_LocalPosition: {x: 0.00007, y: 0.00001, z: 0.00154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84860,7 +84872,7 @@ MonoBehaviour:
     parameterID: -1
     invParameterID: -1
   canBeLowerCase: 0
-  drawGizmos: 1
+  drawGizmos: 0
   lastInteractionIndex: 0
   displayLineID: -1
   iconSortingLayer: 

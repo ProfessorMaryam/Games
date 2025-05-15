@@ -39,7 +39,7 @@ MonoBehaviour:
   playerSwitching: 1
   player: {fileID: 439595049321487070, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
   players: []
-  movementMethod: 4
+  movementMethod: 2
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0
