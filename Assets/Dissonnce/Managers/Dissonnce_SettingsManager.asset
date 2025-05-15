@@ -34,12 +34,12 @@ MonoBehaviour:
     autosaveLabelID: -1
   referenceScenesInSave: 0
   sceneAttributes: []
-  actionListOnStart: {fileID: 11400000, guid: f8242c5041388fb4f946864c488465e6, type: 2}
+  actionListOnStart: {fileID: 11400000, guid: 766a8fa95e2a1d0449f9054fd835a152, type: 2}
   blackOutWhenSkipping: 1
   playerSwitching: 1
   player: {fileID: 439595049321487070, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
   players: []
-  movementMethod: 2
+  movementMethod: 4
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0

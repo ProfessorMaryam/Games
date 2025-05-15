@@ -300,10 +300,10 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 0}
-    activeTex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 78be9d285f90f3d4784365d15caf1db3, type: 3}
+    activeTex: {fileID: 2800000, guid: 78be9d285f90f3d4784365d15caf1db3, type: 3}
     selectedTex: {fileID: 0}
-    linkedPrefab: {fileID: 0}
+    linkedPrefab: {fileID: 4278959076456715658, guid: a85d7d9ee99ad0846b4b9eb275f387d3, type: 3}
     cursorIcon:
       texture: {fileID: 0}
       isAnimated: 0

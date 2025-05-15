@@ -660,7 +660,7 @@ MonoBehaviour:
   textEffects: 0
   outlineSize: 2
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 0746f80d264d8244bbd0013cef303f29, type: 2}
+  actionList: {fileID: 11400000, guid: 767fcba6f6ecaed4891a7159b01cc89e, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
