@@ -234,12 +234,12 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 9
+    skipAction: 10
     skipActionActual: {fileID: 98632550}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 2
+    skipAction: 3
     skipActionActual: {fileID: 1912539305}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -675,7 +675,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 10
+    skipAction: 11
     skipActionActual: {fileID: 1111688623}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -712,6 +712,63 @@ MonoBehaviour:
   copyRotation: 1
   variables: {fileID: 0}
   variablesConstantID: 0
+--- !u!1001 &113826174
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8085435795855392383, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Name
+      value: GuitarAmp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_RootOrder
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 107.381
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
 --- !u!1001 &113889196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,7 +1881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315398920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.486, y: 106.18, z: 16.48}
+  m_LocalPosition: {x: -4.21, y: 106.18, z: 16.16}
   m_LocalScale: {x: 1, y: 1, z: 2.4573724}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2045,9 +2102,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: 5
-    skipActionActual: {fileID: 1723704513}
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 424942607}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2055,10 +2112,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 366.72583
-    y: 2367
+    x: 14
+    y: 14
     width: 300
-    height: 132
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 31600308338718312}
@@ -2604,7 +2661,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 1
+    skipAction: 2
     skipActionActual: {fileID: 51559764}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -2613,8 +2670,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 415
+    y: 99
     width: 300
     height: 253
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7339,7 +7396,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 13
+    skipAction: 14
     skipActionActual: {fileID: 2104402906}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -8301,7 +8358,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 10
+    skipAction: 11
     skipActionActual: {fileID: 1111688623}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -8322,8 +8379,8 @@ MonoBehaviour:
   setVarMethodIntBool: 0
   setVarMethodVector: 0
   parameterID: -1
-  variableID: 5
-  variableNumber: 5
+  variableID: 10
+  variableNumber: 10
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -9030,8 +9087,8 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 2
-    skipAction: 14
+  - resultAction: 1
+    skipAction: 0
     skipActionActual: {fileID: 342366529}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -9043,7 +9100,7 @@ MonoBehaviour:
     x: 364
     y: 2184
     width: 300
-    height: 152
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 31600308338718312}
@@ -9166,8 +9223,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530193769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.91, y: 106.18, z: 21.003}
-  m_LocalScale: {x: 1, y: 1, z: 2.819122}
+  m_LocalPosition: {x: -6.139, y: 106.18, z: 21.25}
+  m_LocalScale: {x: 1, y: 1, z: 1.5062851}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 705791955}
@@ -10776,15 +10833,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4410757694667706, guid: e9e535b35fa65f24fbc1599e00a229e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.794
+      value: -8.650356
       objectReference: {fileID: 0}
     - target: {fileID: 4410757694667706, guid: e9e535b35fa65f24fbc1599e00a229e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 106.142235
+      value: 107.442
       objectReference: {fileID: 0}
     - target: {fileID: 4410757694667706, guid: e9e535b35fa65f24fbc1599e00a229e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.425
+      value: 7.941563
       objectReference: {fileID: 0}
     - target: {fileID: 4410757694667706, guid: e9e535b35fa65f24fbc1599e00a229e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10987,7 +11044,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 12
+    skipAction: 13
     skipActionActual: {fileID: 2074282074}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -11744,7 +11801,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 3
+    skipAction: 4
     skipActionActual: {fileID: 1202133216}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -11949,7 +12006,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 5
+    skipAction: 6
     skipActionActual: {fileID: 1723704513}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -12341,6 +12398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 342366529}
   - {fileID: 424942607}
   - {fileID: 51559764}
   - {fileID: 1912539305}
@@ -12355,7 +12413,6 @@ MonoBehaviour:
   - {fileID: 1510947447}
   - {fileID: 2074282074}
   - {fileID: 2104402906}
-  - {fileID: 342366529}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -26445,7 +26502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2190511860567336114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.720643, y: 106.142235, z: 7.431037}
+  m_LocalPosition: {x: -8.577, y: 107.479, z: 7.9476}
   m_LocalScale: {x: 0.24705818, y: 0.104471736, z: 0.042349968}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -68815,7 +68872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8139996293137509766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7, y: 106.18, z: 10.91}
+  m_LocalPosition: {x: -5.951, y: 106.18, z: 10.661}
   m_LocalScale: {x: 1, y: 1, z: 4.454072}
   m_ConstrainProportionsScale: 0
   m_Children: []
