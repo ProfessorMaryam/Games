@@ -127,7 +127,7 @@ namespace NavKeypad
             panelMesh.material.SetVector("_EmissionColor", screenDeniedColor * screenIntensity);
             audioSource.PlayOneShot(accessDeniedSfx);
 
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(3);
 
 
         }
@@ -146,29 +146,29 @@ namespace NavKeypad
             panelMesh.material.SetVector("_EmissionColor", screenGrantedColor * screenIntensity);
             audioSource.PlayOneShot(accessGrantedSfx);
 
-            GlobalVariables.SetBooleanValue(4, true);
+            GlobalVariables.SetBooleanValue(6, true);
 
             // Load scene 0 (use fade transition)
-            KickStarter.sceneChanger.ChangeScene(0, true);
+            KickStarter.sceneChanger.ChangeScene(3, true);
         }
 
         private void LockPlayerMovement()
         {
-            if (player != null)
-            {
-                // Lock the player’s movement (disables Player Input and ActionList)
-                player.GetComponent<PlayerInput>().enabled = false;  // Disable player input
-                player.GetComponent<ActionList>().enabled = false;   // Optionally disable the ActionList if needed
-            }
+             if (player != null)
+             {
+                 // Lock the playerï¿½s movement (disables Player Input and ActionList)
+               // player.GetComponent<PlayerInput>().enabled = false;  // Disable player input
+               // player.GetComponent<ActionList>().enabled = false;   // Optionally disable the ActionList if needed
+             }
         }
 
         private void UnlockPlayerMovement()
         {
             if (player != null)
             {
-                // Unlock the player’s movement (enables Player Input and ActionList)
-                player.GetComponent<PlayerInput>().enabled = true;  // Enable player input
-                player.GetComponent<ActionList>().enabled = true;   // Optionally enable ActionList again
+                 // Unlock the playerï¿½s movement (enables Player Input and ActionList)
+                // player.GetComponent<PlayerInput>().enabled = true;  // Enable player input
+           //  player.GetComponent<ActionList>().enabled = true;   // Optionally enable ActionList again
             }
         }
 
