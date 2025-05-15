@@ -3419,6 +3419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstQuest: {fileID: 829767002}
   marcHealth: {fileID: 607494828}
+  started: 0
+  friendTrigger: {fileID: 530856640}
 --- !u!65 &78617070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21823,6 +21825,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstQuest: {fileID: 829767002}
   marcHealth: {fileID: 1009407277}
+  started: 0
+  friendTrigger: {fileID: 78617067}
 --- !u!65 &530856643
 BoxCollider:
   m_ObjectHideFlags: 0

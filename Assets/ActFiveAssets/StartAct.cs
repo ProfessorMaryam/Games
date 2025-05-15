@@ -6,9 +6,18 @@ public class StartAct : MonoBehaviour
 {
     public GameObject firstQuest;
     public GameObject marcHealth;
+    public bool started = false;
+    public GameObject friendTrigger;
     private void OnTriggerEnter(Collider other)
     {
-        firstQuest.SetActive(true);
-        marcHealth.SetActive(true);
+        if (!started)
+        {
+            firstQuest.SetActive(true);
+            marcHealth.SetActive(true);
+            started = true;
+            Destroy(friendTrigger);
+            Destroy(gameObject);
+        }
+        
     }
 }

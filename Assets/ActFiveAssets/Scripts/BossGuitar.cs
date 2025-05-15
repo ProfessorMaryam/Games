@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BossGuitar : MonoBehaviour, IDamageable
 {
-    [SerializeField] public float HP = 500f;
+    [SerializeField] public float HP = 300f;
     private Animator animator;
     public BossGhost myBoss;
     public GameObject shield;
@@ -19,7 +19,7 @@ public class BossGuitar : MonoBehaviour, IDamageable
 
     public void Charge()
     {
-        HP = 500f;
+        HP = 300f;
         Debug.Log("Boss Guitar Charged.");
     }
 
