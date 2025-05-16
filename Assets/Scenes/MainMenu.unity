@@ -1371,7 +1371,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2066,7 +2066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1008457658
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2222,6 +2222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PASpeaker
       objectReference: {fileID: 0}
+    - target: {fileID: 5876844975633982265, guid: 2acc129f2f2eaf14a9ee33d85aaeb844, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff2e2355929ef7340bd7d6dbb50bac4a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2acc129f2f2eaf14a9ee33d85aaeb844, type: 3}
 --- !u!4 &1121966997 stripped
@@ -2401,7 +2405,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2748,10 +2752,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1426895440}
     m_Modifications:
+    - target: {fileID: 1413351432710709666, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 2894766344852644941, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 2961611747867401601, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 2984628373864743456, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 3398036513490157718, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 6825624223172749688, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 7219409668479858939, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
+    - target: {fileID: 7725293442546245546, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5a47118577c27824ead0381a86c49f11, type: 2}
     - target: {fileID: 8085435795855392383, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
       propertyPath: m_Name
       value: GuitarAmp
       objectReference: {fileID: 0}
+    - target: {fileID: 8331787452264138192, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88a143d0086704698455bdd3c6ff80, type: 2}
     - target: {fileID: 8898811219683599557, guid: 3112d830bde61084ab2670313ca4339b, type: 3}
       propertyPath: m_RootOrder
       value: 1
