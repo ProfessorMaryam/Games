@@ -5040,6 +5040,53 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   parameterID: -1
   timeToPause: 1
+--- !u!114 &382156154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -99
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings: []
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 524
+    y: 591
+    width: 300
+    height: 164
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8802922241185777032}
+  chooseSceneBy: 0
+  sceneNumber: 3
+  sceneNumberParameterID: -1
+  sceneName: 
+  sceneNameParameterID: -1
+  assignScreenOverlay: 0
+  onlyPreload: 0
+  relativePosition: 0
+  relativeMarker: {fileID: 0}
+  relativeMarkerID: 0
+  relativeMarkerParameterID: -1
+  forceReload: 0
 --- !u!64 &384109455
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22724,8 +22771,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 479
+    x: 13
+    y: 487
     width: 300
     height: 92
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -25003,47 +25050,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5806538146149170281, guid: 2e1c839ba950e6842a03aba0472c9020, type: 3}
---- !u!114 &1811052430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47ef24c0855d41f4a4073c476ef37a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -99
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings: []
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 524
-    y: 591
-    width: 300
-    height: 64
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 8802922241185777032}
-  endGameType: 0
-  chooseSceneBy: 0
-  sceneNumber: 0
-  sceneName: 
-  resetMenus: 0
-  killActionLists: 0
 --- !u!1 &1814779495
 GameObject:
   m_ObjectHideFlags: 0
@@ -65458,14 +65464,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8747176888395287121}
-  m_LocalRotation: {x: -0.4694062, y: 0.52882683, z: 0.52882683, w: 0.4694062}
+  m_LocalRotation: {x: -0.7065973, y: 0.026837178, z: 0.026837178, w: 0.7065973}
   m_LocalPosition: {x: -5.8629766, y: 4.990909, z: -4.651485}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450653044321619}
   m_RootOrder: 153
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 96.813}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 4.35}
 --- !u!33 &4426869715182292104
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -102211,7 +102217,7 @@ MonoBehaviour:
   - {fileID: 1940365854}
   - {fileID: 1219267747}
   - {fileID: 1335837753}
-  - {fileID: 1811052430}
+  - {fileID: 382156154}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
