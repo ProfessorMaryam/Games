@@ -225,5 +225,5 @@ MonoBehaviour:
   defaultSpeechVolume: 1
   showDebugLogs: 0
   printActionCommentsInConsole: 0
-  actionCommentLogging: 0
+  actionCommentLogging: 2
   showActiveActionLists: 0

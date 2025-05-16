@@ -3743,7 +3743,7 @@ MonoBehaviour:
   rectTransform: {fileID: 0}
   rectTransformID: 87948
   uiTransitionType: 1
-  uiPositionType: 1
+  uiPositionType: 3
   _isLocked: 1
   id: 11
   title: Hotspot
