@@ -2134,8 +2134,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 142.79999
-    height: 43.199997
+    width: 294.09998
+    height: 62.159996
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -2147,8 +2147,8 @@ MonoBehaviour:
   variableID: 0
   useCharacterColour: 0
   autoAdjustHeight: 1
-  updateIfEmpty: 0
-  showPendingWhileMovingToHotspot: 0
+  updateIfEmpty: 1
+  showPendingWhileMovingToHotspot: 1
   itemPropertyID: 0
   multiplyByItemCount: 0
   inventoryPropertyType: 0
@@ -3736,7 +3736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 1
+  menuSource: 0
   canvas: {fileID: 22300000, guid: 12dbefc024e535344bd0c8f8979ab056, type: 3}
   canvasAssetKey: 
   canvasID: 0
@@ -3744,7 +3744,7 @@ MonoBehaviour:
   rectTransformID: 87948
   uiTransitionType: 1
   uiPositionType: 3
-  _isLocked: 1
+  _isLocked: 0
   id: 11
   title: Hotspot
   manualSize: {x: 33.999996, y: 11.999999}
@@ -3767,7 +3767,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: -5489158731500932025}
   transitionProgress: 0
-  appearType: 5
+  appearType: 7
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -3818,13 +3818,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 142.79999, y: 43.199997}
+  biggestElementSize: {x: 294.09998, y: 62.159996}
   rect:
     serializedVersion: 2
-    x: 138.6
-    y: 138.23999
-    width: 142.79999
-    height: 43.199997
+    x: 285.45
+    y: 198.912
+    width: 294.09998
+    height: 62.159996
   showInFilter: 1
 --- !u!114 &-1372416339215440656
 MonoBehaviour:

@@ -2620,7 +2620,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 254
+    height: 153
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 31600308338718312}
@@ -2633,7 +2633,7 @@ MonoBehaviour:
   resumeFromStart: 1
   resumeIfPlayedBefore: 0
   willWaitComplete: 0
-  musicAction: 0
+  musicAction: 1
   loopingOverlapTime: 0
 --- !u!1 &440116155 stripped
 GameObject:
