@@ -6,6 +6,32 @@ TagManager:
   tags:
   - BackgroundCamera
   - Football
+  - Target
+  - GuitarHead
+  - Guitar
+  - Ghost
+  - GhostHand
+  - Spawner
+  - FirstDevice
+  - FirstGhost
+  - rGhostSpawner
+  - WhiteDoor
+  - yGhostSpawner
+  - DeviceThree
+  - DeviceOne
+  - bGhostSpawner
+  - ShieldSurface
+  - DeviceFour
+  - PlayerRise
+  - SecondSpawn
+  - DeviceTwo
+  - PathToEarth
+  - MoonTerrain
+  - FourthSpawn
+  - ThirdSpawn
+  - wGhostSpawner
+  - PlayerSpawn
+  - Spawn
   layers:
   - Default
   - TransparentFX

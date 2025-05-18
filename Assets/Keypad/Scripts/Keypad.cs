@@ -127,7 +127,7 @@ namespace NavKeypad
             panelMesh.material.SetVector("_EmissionColor", screenDeniedColor * screenIntensity);
             audioSource.PlayOneShot(accessDeniedSfx);
 
-            UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(4);
 
 
         }
@@ -149,7 +149,7 @@ namespace NavKeypad
             GlobalVariables.SetBooleanValue(6, true);
 
             // Load scene 0 (use fade transition)
-            KickStarter.sceneChanger.ChangeScene(3, true);
+            KickStarter.sceneChanger.ChangeScene(4, true);
         }
 
         private void LockPlayerMovement()
