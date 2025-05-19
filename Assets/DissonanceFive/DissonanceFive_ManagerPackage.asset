@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: DissonanceFive_ManagerPackage
+  m_EditorClassIdentifier: 
+  actionsManager: {fileID: 11400000, guid: ca9886fe962a87f41bf4b08cf5bd73c3, type: 2}
+  sceneManager: {fileID: 11400000, guid: 768361ff38f176246abac3c0c78c910e, type: 2}
+  settingsManager: {fileID: 11400000, guid: 389fd6d8c38821e4bbba197b1d9bac55, type: 2}
+  inventoryManager: {fileID: 11400000, guid: 2ef58ebd7c008a64ead3c8020713c96f, type: 2}
+  variablesManager: {fileID: 11400000, guid: e71ae950f2bfc784c8be4b959c50a961, type: 2}
+  speechManager: {fileID: 11400000, guid: 8f500d8c9bc3c5441b3cebbdb8b8752d, type: 2}
+  cursorManager: {fileID: 11400000, guid: 0ac42b81ef0a16a4b933aeb4ccbbee0f, type: 2}
+  menuManager: {fileID: 11400000, guid: 0ce623a79b15f2e4bae5e719e0135820, type: 2}

@@ -34,7 +34,7 @@ MonoBehaviour:
     autosaveLabelID: -1
   referenceScenesInSave: 0
   sceneAttributes: []
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: 70965715cd45e6e4d947ecb04a1e197c, type: 2}
   blackOutWhenSkipping: 1
   playerSwitching: 1
   player: {fileID: 439595049321487070, guid: f174da84af304fa41ae54d979ed7ac6b, type: 3}
@@ -174,8 +174,8 @@ MonoBehaviour:
   hotspotDrawing: 0
   hideUnhandledHotspots: 0
   navMeshRaycastLength: 100
-  hotspotRaycastLength: 5
-  moveableRaycastLength: 20
+  hotspotRaycastLength: 1.4
+  moveableRaycastLength: 1.4
   hotspotLayer: Default
   distantHotspotLayer: DistantHotspot
   navMeshLayer: NavMesh
@@ -194,7 +194,15 @@ MonoBehaviour:
   playMusicWhilePaused: 0
   playAmbienceWhilePaused: 0
   musicStorages: []
-  ambienceStorages: []
+  ambienceStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: deb0dcd8de2322e4e82e79b866b42055, type: 3}
+    relativeVolume: 0.263
+    overrideMixerGroup: {fileID: 0}
+  - ID: 1
+    audioClip: {fileID: 8300000, guid: b98c12f148cef3a4589be3046154b0f9, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
   restartAmbienceTrackWhenLoading: 0
